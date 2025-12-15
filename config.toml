@@ -29,9 +29,9 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "RStudio"
-  orgLocal = "Anywhere"
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+  orgName = "Hasher Nisar"
+  orgLocal = ""
+  description = "Hasher Nisar's personal scholar website."
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
   mainSections = ["blog", "project", "talk"]
@@ -74,7 +74,7 @@ enableEmoji = true
     
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
-    repo_name = "apreshill/apero"
+    repo_name = "hashernisar/hasher"
     issue_term = "pathname" # url, pathname, or title
     theme = "boxy-light"
     label = "comments :crystal_ball:"
@@ -84,7 +84,7 @@ enableEmoji = true
   # needed to populate the below information.
   # https://www.joelnitta.com/posts/2021-11-24_using-giscus/
   [params.giscus]
-    repo = "apreshill/apero"
+    repo = "hashernisar/hasher"
     repo_id = "[REPO ID]="
     category = "Comments"
     category_id = "[category ID]"
