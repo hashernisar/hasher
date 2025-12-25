@@ -1,3 +1,5 @@
+// basic color options: use only color names as shown in the
+// "Color Palette" section of https://tachyons.io/docs/themes/skins/
 $siteBgColor: "near-white";
 $sidebarBgColor: "washed-blue";
 $textColor: "dark-gray";
