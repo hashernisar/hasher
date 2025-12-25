@@ -1,0 +1,15 @@
+$siteBgColor: "near-white";
+$sidebarBgColor: "washed-blue";
+$textColor: "dark-gray";
+$sidebarTextColor: "dark-blue";
+$headlineColor: "navy";
+$headingColor: "near-black";
+$bodyLinkColor: "dark-blue";
+$navLinkColor: "navy";
+$sidebarLinkColor: "navy";
+$footerTextColor: "mid-gray";
+$buttonTextColor: "near-white";
+$buttonBgColor: "navy";
+$buttonHoverTextColor: "white";
+$buttonHoverBgColor: "dark-blue";
+$borderColor: "moon-gray";
