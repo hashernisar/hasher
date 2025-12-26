@@ -2,28 +2,30 @@
 // basic color options: use only color names as shown in the
 // "Color Palette" section of http://tachyons.io/docs/themes/skins/
 
-$siteBgColor: "white" ;              // true white canvas
-$sidebarBgColor: "near-white" ;      // barely-there separation
+// Full navy background, white text
 
-$textColor: "near-black" ;           // primary body text (charcoal)
-$sidebarTextColor: "dark-gray" ;
+$siteBgColor: "navy" ;
+$sidebarBgColor: "navy" ;
 
-$headlineColor: "navy" ;             // authority accent
-$headingColor: "near-black" ;        // hierarchy without noise
+$textColor: "near-white" ;
+$sidebarTextColor: "near-white" ;
 
-$bodyLinkColor: "dark-blue" ;         // understated links
-$navLinkColor: "near-black" ;
+$headlineColor: "white" ;
+$headingColor: "near-white" ;
 
-// Nav underline / hover background
-$navBgColor: "navy" ;                 // strong but rare
+$bodyLinkColor: "light-blue" ;
+$navLinkColor: "near-white" ;
 
-$sidebarLinkColor: "dark-gray" ;
+// Hover / active states
+$navBgColor: "dark-blue" ;
 
-$footerTextColor: "mid-gray" ;
+$sidebarLinkColor: "light-blue" ;
 
-$buttonTextColor: "white" ;
-$buttonBgColor: "navy" ;
-$buttonHoverTextColor: "white" ;
-$buttonHoverBgColor: "dark-blue" ;
+$footerTextColor: "silver" ;
 
-$borderColor: "light-gray" ;          // gridlines, tables, dividers
+$buttonTextColor: "navy" ;
+$buttonBgColor: "white" ;
+$buttonHoverTextColor: "navy" ;
+$buttonHoverBgColor: "washed-blue" ;
+
+$borderColor: "dark-blue" ;
