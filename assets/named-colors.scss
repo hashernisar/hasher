@@ -2,22 +2,22 @@
 // basic color options: use only color names as shown in the
 // "Color Palette" section of http://tachyons.io/docs/themes/skins/
 
-$siteBgColor: "white" ;              // true white canvas
-$sidebarBgColor: "near-white" ;      // barely-there separation
+$siteBgColor: "white" ;              // content canvas stays white
+$sidebarBgColor: "navy" ;            // strong institutional sidebar
 
-$textColor: "near-black" ;           // primary body text (charcoal)
-$sidebarTextColor: "dark-gray" ;
+$textColor: "near-black" ;
+$sidebarTextColor: "near-white" ;    // inverted text on navy
 
-$headlineColor: "navy" ;             // authority accent
-$headingColor: "near-black" ;        // hierarchy without noise
+$headlineColor: "navy" ;             // section authority
+$headingColor: "near-black" ;
 
-$bodyLinkColor: "dark-blue" ;         // understated links
-$navLinkColor: "near-black" ;
+$bodyLinkColor: "dark-blue" ;
+$navLinkColor: "near-white" ;
 
 // Nav underline / hover background
-$navBgColor: "navy" ;                 // strong but rare
+$navBgColor: "dark-blue" ;            // hover / active nav
 
-$sidebarLinkColor: "dark-gray" ;
+$sidebarLinkColor: "washed-blue" ;    // readable but restrained
 
 $footerTextColor: "mid-gray" ;
 
@@ -26,4 +26,4 @@ $buttonBgColor: "navy" ;
 $buttonHoverTextColor: "white" ;
 $buttonHoverBgColor: "dark-blue" ;
 
-$borderColor: "light-gray" ;          // gridlines, tables, dividers
+$borderColor: "light-gray" ;
