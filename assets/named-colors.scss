@@ -1,20 +1,29 @@
 // override colors to customize
 // basic color options: use only color names as shown in the
 // "Color Palette" section of http://tachyons.io/docs/themes/skins/
-$siteBgColor: "near-white" ;
-$sidebarBgColor: "light-gray" ;
-$textColor: "dark-gray" ;
-$sidebarTextColor: "mid-gray" ;
-$headlineColor: "dark-pink" ;
-$headingColor: "near-black" ;
-$bodyLinkColor: "blue" ;
-$navLinkColor: "near-black" ;
+
+$siteBgColor: "near-white" ;        // clean reading background
+$sidebarBgColor: "washed-blue" ;    // soft navy-tinted sidebar
+
+$textColor: "dark-gray" ;           // body text (easy on eyes)
+$sidebarTextColor: "navy" ;         // strong but not harsh
+
+$headlineColor: "navy" ;            // titles / site name
+$headingColor: "near-black" ;       // section headings
+
+$bodyLinkColor: "dark-blue" ;        // links in text
+$navLinkColor: "navy" ;              // navigation links
+
 // Nav underline / hover background
-$navBgColor: "navy" ;
-$sidebarLinkColor: "near-black" ;
-$footerTextColor: "silver" ;
+$navBgColor: "dark-blue" ;           // hover / active state
+
+$sidebarLinkColor: "dark-blue" ;     // sidebar links
+
+$footerTextColor: "mid-gray" ;       // subdued footer
+
 $buttonTextColor: "near-white" ;
-$buttonBgColor: "black" ;
+$buttonBgColor: "navy" ;
 $buttonHoverTextColor: "white" ;
-$buttonHoverBgColor: "blue" ;
-$borderColor: "moon-gray" ;
+$buttonHoverBgColor: "dark-blue" ;
+
+$borderColor: "moon-gray" ;           // light structural borders
