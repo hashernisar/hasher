@@ -213,7 +213,7 @@ form {
   textarea:focus,
   [type="text"]:focus,
   [type="email"]:focus {
-    @extend .bg-custom-sidebar-bg-color
+    @extend .bg-custom-sidebar-bg-color !optional;
   }
 }
 
