@@ -2,7 +2,7 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: I am a PhD candidate in Political Science at the University of Michigan. 
+description: I am a PhD candidate in Political Science at the University of Michigan. I study the institutionalization of religion in the Middle East and South Asia. 
 image_left: false
 images:
 - img/HasherNisar.jpg
