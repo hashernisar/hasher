@@ -8,7 +8,6 @@
         {{ with .Params.subtitle }}<h2 class="f5 fw7 mt0 mb4 ttu tracked">{{ . }}</h2>{{ end }}
         {{ if .Params.show_social_links }}{{ partial "shared/social-links.html" . }}{{ end }}
         {{ with .Params.description }}<p class="f4 mt4 lh-copy">{{ . | markdownify }}</p>{{ end }}
-                {{ with .Params.description }}<p class="f4 mt4 lh-copy">{{ . | markdownify }}</p>{{ end }}
         <div class="pub-highlight">
           <p class="pub-highlight-label">Recent Publication</p>
           <p class="pub-highlight-body">
