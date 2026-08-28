@@ -55,3 +55,45 @@
     display: block;
   }
 }
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #E0A458;
+  font-size: 1.1rem;
+  padding: 0 0.5rem;
+  line-height: 1;
+}
+
+// Light mode overrides
+html[data-theme="light"] {
+  body,
+  .site-header,
+  .home,
+  main {
+    background-color: #FFFFFF !important;
+    color: #1A2A3A !important;
+  }
+
+  a { color: #B57A22 !important; }        // darker gold — gold-on-white needs more contrast
+  .link { color: #1A2A3A !important; }
+
+  .site-title,
+  h1, h2, h3 { color: #0C2745 !important; }  // navy headings on white
+
+  .pub-highlight {
+    background: #F4F1EA !important;
+    border-color: #E0D5C0 !important;
+    border-left-color: #B57A22 !important;
+    .pub-highlight-body { color: #1A2A3A !important; }
+    .pub-highlight-label { color: #7A6A50 !important; }
+    a { color: #B57A22 !important; }
+  }
+
+  .nav-dropdown-menu {
+    background: #FFFFFF !important;
+    border-color: #E0D5C0 !important;
+    a:hover { background: rgba(181, 122, 34, 0.12) !important; }
+  }
+}
