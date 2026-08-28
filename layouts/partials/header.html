@@ -11,9 +11,19 @@
         {{ $active := or ($page.IsMenuCurrent "header" .) ($page.HasMenuCurrent "header" .) }}
         {{ $active = or $active (eq $page.Section (trim .URL "/")) }}
         {{ $active = or $active (eq $page.RelPermalink .URL ) }}
+        {{ if .HasChildren }}
+      <span class="nav-dropdown dib v-mid relative">
+        <a class="link f6 f5-l dib pv1 ph2 {{ if $active }}active{{ end }}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+        <span class="nav-dropdown-menu">
+          {{ range .Children }}
+          <a class="link db pv1 ph3" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+          {{ end }}
+        </span>
+      </span>
+        {{ else }}
       <a class="link f6 f5-l dib pv1 ph2 {{ if $active }}active{{ end }}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+        {{ end }}
       {{ end }}
-      {{ if .Site.Params.socialInHeader }}
       <div class="dib v-mid">
         {{ partial "shared/social-links.html" . }}
       </div>

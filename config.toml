@@ -149,38 +149,61 @@ enableEmoji = true
   series = "series"
   tag = "tags"
 
-[menu]
-  # Configure header 
   [[menu.header]]
     name = "About"
-    title = "About Blogophonic"
+    title = "About"
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "Blog"
-    title = "Blog"
-    url = "/blog/"
+    name = "CV"
+    title = "CV"
+    url = "/cv/"
     weight = 2
   [[menu.header]]
-    name = "Projects"
-    title = "Project Portfolio"
-    url = "/project/"
+    name = "Research"
+    title = "Research"
+    url = "/research/"
     weight = 3
   [[menu.header]]
-    name = "Talks"
-    title = "Talks"
-    url = "/talk/"
+    name = "Dissertation"
+    title = "Dissertation"
+    parent = "Research"
+    url = "/research/dissertation/"
+    weight = 1
+  [[menu.header]]
+    name = "Articles"
+    title = "Articles"
+    parent = "Research"
+    url = "/research/articles/"
+    weight = 2
+  [[menu.header]]
+    name = "Work in Progress"
+    title = "Work in Progress"
+    parent = "Research"
+    url = "/research/work-in-progress/"
+    weight = 3
+  [[menu.header]]
+    name = "Data"
+    title = "Data"
+    url = "/data/"
     weight = 4
   [[menu.header]]
-    name = "A collection"
-    title = "A collection"
-    url = "/collection/"
-    weight = 5
+    name = "Biographies"
+    title = "Biographies"
+    parent = "Data"
+    url = "/data/biographies/"
+    weight = 1
   [[menu.header]]
-    name = "Elements"
-    title = "Element Page"
-    url = "/elements/"
-    weight = 6
+    name = "Mosques"
+    title = "Mosques"
+    parent = "Data"
+    url = "/data/mosques/"
+    weight = 2
+  [[menu.header]]
+    name = "Contact"
+    title = "Contact"
+    url = "/contact/"
+    weight = 5
     
   # Configure footer  
   [[menu.footer]]
