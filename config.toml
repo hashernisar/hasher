@@ -162,7 +162,6 @@ enableEmoji = true
   [[menu.header]]
     name = "Research"
     title = "Research"
-    url = "/research/"
     weight = 3
   [[menu.header]]
     name = "Dissertation"
@@ -185,7 +184,6 @@ enableEmoji = true
   [[menu.header]]
     name = "Data"
     title = "Data"
-    url = "/data/"
     weight = 4
   [[menu.header]]
     name = "Biographies"

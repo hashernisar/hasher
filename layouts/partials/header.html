@@ -13,7 +13,7 @@
         {{ $active = or $active (eq $page.RelPermalink .URL ) }}
         {{ if .HasChildren }}
       <span class="nav-dropdown dib v-mid relative">
-        <a class="link f6 f5-l dib pv1 ph2 {{ if $active }}active{{ end }}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+         <span class="link f6 f5-l dib pv1 ph2">{{ .Name }}</span>
         <span class="nav-dropdown-menu">
           {{ range .Children }}
           <a class="link db pv1 ph3" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
