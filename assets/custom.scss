@@ -97,3 +97,12 @@ html[data-theme="light"] {
     a:hover { background: rgba(181, 122, 34, 0.12) !important; }
   }
 }
+
+@media (max-width: 60em) {
+  .home main img,
+  .intro img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
