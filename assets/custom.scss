@@ -108,3 +108,19 @@ html[data-theme="light"] {
     margin-right: 0 !important;
   }
 }
+
+@media (max-width: 60em) {
+  .flex-l.items-center {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-l.items-center > .tr.w-50-l {   // image column
+    order: 1;
+  }
+  .flex-l.items-center > .mh4.w-50-l {   // text column
+    order: 2;
+  }
+  .mobile-intro-title {
+    order: 0;
+  }
+}
