@@ -99,10 +99,11 @@ html[data-theme="light"] {
 }
 
 @media (max-width: 60em) {
+  .intro {
+    text-align: center;
+  }
   .home main img,
   .intro img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
   }
 }
